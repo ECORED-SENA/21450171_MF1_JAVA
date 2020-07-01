@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "path": "pages/introduccion.html"
+  }, 
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "poo",
+    "title": "1. Lenguaje orientado a objetos",
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "conceptos-basicos",
+        "title": "1.1 Conceptos básicos ",
+        "path": "pages/tema-11.html"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "los-mas-nombrados",
+        "title": "1.2 Los más nombrados",
+        "path": "pages/tema-12.html"
+      } 
+    ]
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "entorno-trabajo",
+    "title": "2. Entorno de trabajo",
+    "path": "pages/tema-2.html"
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }   
+]

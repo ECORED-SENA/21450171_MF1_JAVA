@@ -1,0 +1,115 @@
+.bg-color-naranja {
+    background-color: orange;
+}
+
+
+// Estilos tema 2
+
+.custom-item-img {
+    flex: 0 0 120px;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+
+.bg-color-azul {
+    background-color: rgba(2,136,209,.3);
+}
+
+.bg-color-cafe {
+    background-color: rgba(141,110,99,.3);
+}
+
+.border-color-cafe {
+    border-color: maroon;
+}
+
+// Tema 1.3
+#sliderPatronaje {
+    width: 100%;
+    background-color: #FED97B;
+
+    @media screen and (max-width: 400px){
+
+        height: 360px;
+
+        .carousel-item {
+            height: 310px;
+        }
+        
+    }
+
+    @media screen and (min-width:401px) and (max-width: 767px){
+
+        height: 460px;
+
+        .carousel-item {
+            height: 380px;
+        }
+        
+    }    
+}
+
+.subtitulo-ecored {
+
+    margin: 3rem 0;
+    position: relative;
+
+    h1 {
+        font-size: $h1-font-size;
+    }
+
+    h2 {
+        font-size: $h2-font-size;
+    }
+
+    h3 {
+        font-size: $h3-font-size;
+    }
+
+    h1,h2,h3,h4 {
+        color: $primary;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-weight: 700;
+
+        span.number {
+            background-color: $brand-color-dark;
+            color: $primary;
+            padding: 7px;
+            margin-right: 1.5rem;
+            
+            text-align: center;
+        }
+    }
+}
+
+.table .thead-orange th {
+    color: $white;
+    background-color: $orange;
+    text-align: center;
+}
+.table .thead-gray th {
+    color: $primary;
+    background-color: $gray-300;
+    text-align: center;
+}
+
+.table .tbody-gray td {
+    color: $primary;
+    background-color: $gray-100;
+}
+
+ul.bullet-blue > li,
+.text-color-blue { color: #3B5FBF; } 
+ul.bullet-red > li,
+.text-color-red { color: #E24D69 } 
+
+
+.card.border-color-blue {
+    border-bottom: 4px solid #3B5FBF;
+}
+.card.border-color-red {
+    border-bottom: 4px solid #E24D69;
+}
