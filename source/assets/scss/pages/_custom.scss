@@ -113,3 +113,48 @@ ul.bullet-red > li,
 .card.border-color-red {
     border-bottom: 4px solid #E24D69;
 }
+ul.icon-terminal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        background: url('../images/pages/tema-1/icon-terminal.svg') no-repeat left center;
+        padding: 15px 0px 15px 55px;     
+        position: relative;
+        
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            border:1px solid rgba(#707070,.1);
+        }
+
+        &:last-child {
+            &::after {
+                border:0px;
+            }
+        }
+    }
+}
+
+.subtitulo-guion {
+    h2 {
+        overflow: hidden;
+        font-weight: 600;
+    }
+
+    h2:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid $orange;
+    }
+}

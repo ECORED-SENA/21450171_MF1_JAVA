@@ -1,19 +1,18 @@
 .header-step {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header-step-number {
     flex-basis: 36px;
     font-weight: 700;
     font-size: 1.1em;
-    //margin-right: .5em;
+    margin-right: .5em;
     color: $brand-color-dark;
 }
 
 .header-step-title {
-    font-weight: 600;
     font-size: 1em;
     flex: 1 1 auto;
 
