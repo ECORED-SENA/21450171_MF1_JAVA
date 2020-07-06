@@ -41,7 +41,27 @@
     "icon": "fa fa-file-text-o",
     "slug": "entorno-trabajo",
     "title": "2. Entorno de trabajo",
-    "path": "pages/tema-2.html"
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "entorno-trabajo",
+        "title": "2.1 ¿Qué lo compone?",
+        "anchor": "tema-21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "entorno-trabajo",
+        "title": "2.2 ¿Cómo se obtiene?",
+        "anchor": "tema-22"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "entorno-trabajo",
+        "title": "2.3 Ejemplo completo",
+        "anchor": "tema-23"
+      }
+    ]    
   },
   {
     "icon": "fa fa-question-circle",

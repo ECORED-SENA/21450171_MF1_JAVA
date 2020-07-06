@@ -11,13 +11,7 @@
         "title": "Glosario",
         "breadcrumb": ["Glosario"],
         "path": "config/glosario.json"
-    },
-    {
-        "icon": "fa fa-folder-open-o",
-        "slug": "material-complementario",
-        "title": "Material complementario",
-        "path": "pages/material-complementario.html"
-    },    
+    },   
     {
         "icon": "icon referencias",
         "slug": "referencias",

@@ -3,61 +3,30 @@
     "letter": "A",
     "terms": [
       {
-        "title": "Aminoácidos",
-        "desciption": "Son sustancias que forman parte de la estructura de las proteínas e intervienen directamente en la regulación del crecimiento y desarrollo vegetal."
+        "title": "Atributo:",
+        "desciption": "Es cada uno de los datos definidos para un objeto."
       }
     ]
   },
-  {
-    "letter": "B",
-    "terms": [
-      {
-        "title": "Biodegradación",
-        "desciption": "Es la descomposición orgánica consistente en un proceso por medio del cual un material cambia sus propiedades a través de un sistema mediado por  bacterias, hongos, protozoos y otros organismos."
-      }
-    ]
-  },
-  {
-    "letter": "C",
-    "terms": [
-      {
-        "title": "Conductividad eléctrica EC:",
-        "desciption": "La conductividad es una medida de la propiedad que poseen las soluciones acuosas para conducir la corriente eléctrica. Esta propiedad depende de la presencia de iones, su concentración, movilidad, valencia y de la temperatura de la medición."
-      },
-      {
-        "title": "Cultivo hidropónico",
-        "desciption": "Es un sistema de producción agrícola en el que las plantas  o las semillas son dispuestas en un sustrato generalmente inerte y los nutrientes son suministrados por medio de una solución nutritiva."
-      }
-    ]
-  },
-  {
-    "letter": "F",
-    "terms": [
-      {
-        "title": "Forrajes",
-        "desciption": "Son las hierbas, cereales, pasto verde o seco que se utiliza para la alimentación de alguna especies animales."
-      }
-    ]
-  },  
   {
     "letter": "I",
     "terms": [
       {
-        "title": "Inocuidad",
-        "desciption": "Es ausencia de elementos que puedan ser tóxicos por causar daño."
-      },
-      {
-        "title": "Inoculación",
-        "desciption": "Introducir microorganismos a un cuerpo como una sustancia con el fin de que crezcan y se reproduzcan causando un efecto determinado."
+        "title": "IDE:",
+        "desciption": "Integrated Development Environment, traducido al español como Entorno de Desarrollo Integrado; es un software que a través de una interfaz gráfica, facilita al programador la escritura de código en diferentes lenguajes de programación."
       }
     ]
-  },      
+  },
   {
-    "letter": "L",
+    "letter": "J",
     "terms": [
       {
-        "title": "Lixiviados",
-        "desciption": "Son las sustancias que se obtienen después de pasar por el suelo o el sustrato y poseen partículas de nutrientes."
+        "title": "JDK:",
+        "desciption": "Java Development Kit, traducido al español como Kit de Desarrollo de Java; es un software requerido para correr programas que son escritos en lenguaje Java."
+      },
+      {
+        "title": "JRE:",
+        "desciption": "Java Runtime Environment, consiste en un conjunto de herramientas de software que posibilita la ejecución de programas escritos en Java."
       }
     ]
   },
@@ -65,27 +34,27 @@
     "letter": "M",
     "terms": [
       {
-        "title": "Microelementos quelatados",
-        "desciption": "Compuestos muy estables que se utilizan en fertilización porque tienen gran asimilación por parte de las plantas."
+        "title": "Método:",
+        "desciption": "Es cada una de las funcionalidades definidas para un objeto."
       }
     ]
-  },
+  },  
   {
     "letter": "P",
     "terms": [
       {
-        "title": "Pasteurización",
-        "desciption": "Procedimiento por medio del cual se destruyen los microorganismos nocivos presentes en un cuerpo por medio de una temperatura aproximada a 80°C durante un corto periodo de tiempo, para posteriormente enfriarlo de manera rápida."
+        "title": "Paradigma:",
+        "desciption": "Consiste en la forma en que se escriben los códigos de un programa."
       }
     ]
-  },
+  },      
   {
-    "letter": "V",
+    "letter": "S",
     "terms": [
       {
-        "title": "Vaso de precipitado",
-        "desciption": "Es un recipiente cilíndrico de vidrio que se utiliza en los laboratorios en diferentes tareas como: calentar sustancias, medir y traspasar líquidos."
+        "title": "Soluciones a la medida:",
+        "desciption": "Programas creados a partir de una lista de requerimientos definida con anterioridad, de acuerdo con las necesidades del cliente."
       }
     ]
-  }        
+  }
 ]

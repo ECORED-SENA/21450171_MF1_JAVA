@@ -158,3 +158,27 @@ ul.icon-terminal {
         border-top: 1px solid $orange;
     }
 }
+
+ol.lista {
+  counter-reset: li;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+      margin-bottom: 8px;
+  }
+}
+
+ol.lista > li:before {
+  counter-increment: li;
+  content: ' ' counter(li) '. ';
+  color: $primary;
+  font-weight: 600;
+  background-color: #CBD9E4; 
+  padding: 4px 4px 4px 6px;
+  text-align: center;
+  margin-right: 7px;
+  border-radius: 50%;
+  font-size: .8em;
+}
